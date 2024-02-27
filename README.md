@@ -1,7 +1,7 @@
 # app.service
-This app has been created for working with authentication, authorization over java technology using spring-boot 3, spring-security 6 and JWT.
+This app has been created to work with authentication, authorization on java technology using spring-boot 3, spring-security 6 and JWT.
 
-## Steps for running:
+## Steps to run:
 1. Generate SSL certificate with keytool. <br>
     Example:<br>
     keytool -genkeypair -alias authalias -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore app.p12 -validity 3650
