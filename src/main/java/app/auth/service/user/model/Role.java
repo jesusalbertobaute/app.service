@@ -13,11 +13,11 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public enum Role {
 
-    USER(Set.of(
+    ROLE_USER(Set.of(
             Operation.PRODUCT_READ
          )
     ),
-    ADMIN(
+    ROLE_ADMIN(
             Set.of(
                    Operation.USER_CREATE,
                    Operation.USER_UPDATE,
@@ -25,7 +25,7 @@ public enum Role {
                    Operation.USER_DELETE
                    )
          ),
-    STOREKEEPER(
+    ROLE_STOREKEEPER(
             Set.of(
                 Operation.PRODUCT_READ,
                 Operation.PRODUCT_CREATE,

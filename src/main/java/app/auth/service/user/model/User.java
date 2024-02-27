@@ -14,6 +14,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -21,6 +22,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @Entity
 @Table(name="_user")
+@Slf4j
 public class User implements UserDetails {
     
     @Id
